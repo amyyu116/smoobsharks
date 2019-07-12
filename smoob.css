@@ -1,0 +1,51 @@
+#title{
+  font-family: 'Cedarville Cursive', cursive;
+  color: white;
+  font-size:60px
+}
+.tab{
+  background: white;
+  color:blue;
+  text-align:center;
+  -webkit-transition:all 250ms ease-in-out;
+  transition:all 250ms ease-in-out;
+  border: none;
+  height: 80;
+  width: 300px;
+  font-size: 30px;
+  font-family: 'Abel', sans-serif;
+}
+
+.tab:hover {
+  background-color: #ebf4fa;
+}
+
+p{
+  font-size: 18;
+  font-family: 'News Cycle', sans-serif;
+  color: #636363;
+}
+
+h2{
+  font-size: 28;
+  font-family: 'News Cycle', sans-serif;
+  color: #636363;
+  align: "left"
+}
+body{
+  background-image: 'underwater.jpg';
+  background-attachment: fixed;
+  align: "center";
+}
+h1{
+  font-size: 52;
+  line-height: 0;
+  font-family: 'Nanum Myeongjo', serif;
+  color: #454545;
+  font-weight: bold;
+}
+@media screen and (max-width: 1024px){
+    img.bg {
+    left: 50%;
+    margin-left: -512px; }
+}
